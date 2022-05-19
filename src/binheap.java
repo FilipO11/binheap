@@ -19,8 +19,8 @@ public class binheap {
             int childIdx = eltIdx * 2 + 1;
             if (childIdx < end) {
                 int child = heap[childIdx];
-                if (childIdx + 1 < end && child < heap[childIdx+1]) child = heap[++childIdx];
-                if (elt >= child) return;
+                if (childIdx + 1 < end && child > heap[childIdx+1]) child = heap[++childIdx];
+                if (elt <= child) return;
                 swap(eltIdx, childIdx);
             }
             eltIdx = eltIdx % 2 == 1 ? (eltIdx - 1) / 2 : (eltIdx - 2) / 2;
@@ -40,8 +40,8 @@ public class binheap {
         while (childIdx < end) {
             int elt = heap[eltIdx];
             int child = heap[childIdx];
-            if (childIdx + 1 < end && child < heap[childIdx+1]) child = heap[++childIdx];
-            if (elt >= child) return;
+            if (childIdx + 1 < end && child > heap[childIdx+1]) child = heap[++childIdx];
+            if (elt <= child) return;
             swap(eltIdx, childIdx);
             eltIdx = childIdx;
             childIdx = eltIdx * 2 + 1;

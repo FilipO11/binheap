@@ -31,12 +31,13 @@ public class binheap {
         if (heap[0] == 0) System.out.println("false");
         System.out.printf("true: %d\n", heap[0]);
         swap(0, --end);
+        heap[end] = 0; //full delete
         bubbleDown();
     }
 
     private void bubbleDown() {
         int eltIdx = 0;
-        int childIdx = 0;
+        int childIdx = 1;
         while (childIdx < end) {
             int elt = heap[eltIdx];
             int child = heap[childIdx];
@@ -55,12 +56,11 @@ public class binheap {
         }
 
         StringBuilder sb = new StringBuilder();
-        int i = 0;
-        sb.append(heap[i++]);
+        sb.append(heap[0]);
 
-        while (heap[i] != 0) {
+        for (int i = 1; i < end; i++) {
             sb.append(", ");
-            sb.append(heap[i++]);
+            sb.append(heap[i]);
         }
 
         System.out.println(sb);

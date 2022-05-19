@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e3d0f6-f11f-4e0e-bd2a-c1e8343a89f2" name="Changes" comment="private vars + constructors + skeleton">
+    <list default="true" id="58e3d0f6-f11f-4e0e-bd2a-c1e8343a89f2" name="Changes" comment="printElts, printMin, printCmps complete. removed extra contructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binheap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binheap.java" afterDir="false" />
     </list>
@@ -51,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652803847421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="printElts, printMin, printCmps complete. removed extra contructor">
+      <created>1652951842555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652951842555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="private vars + constructors + skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="private vars + constructors + skeleton" />
+    <MESSAGE value="printElts, printMin, printCmps complete. removed extra contructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="printElts, printMin, printCmps complete. removed extra contructor" />
   </component>
 </project>

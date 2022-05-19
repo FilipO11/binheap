@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e3d0f6-f11f-4e0e-bd2a-c1e8343a89f2" name="Changes" comment="methods ready. TODO: comps">
+    <list default="true" id="58e3d0f6-f11f-4e0e-bd2a-c1e8343a89f2" name="Changes" comment="insert comps ready. TODO: delete comps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binheap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binheap.java" afterDir="false" />
     </list>
@@ -40,6 +40,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="binheap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binheap" />
+      <module name="binheap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.binheap" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652960415403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="insert comps ready. TODO: delete comps">
+      <created>1652961762050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652961762050</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +125,18 @@
     <MESSAGE value="added insert(), deleteMin() (untested, no comps) + aux methods" />
     <MESSAGE value="fixed printing" />
     <MESSAGE value="methods ready. TODO: comps" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods ready. TODO: comps" />
+    <MESSAGE value="insert comps ready. TODO: delete comps" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert comps ready. TODO: delete comps" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binheap.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

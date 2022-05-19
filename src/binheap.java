@@ -29,7 +29,7 @@ public class binheap {
 
     void deleteMin() {
         if (heap[0] == 0) System.out.println("false");
-        System.out.printf("true: %d", heap[0]);
+        System.out.printf("true: %d\n", heap[0]);
         swap(0, --end);
         bubbleDown();
     }
@@ -54,8 +54,9 @@ public class binheap {
             return;
         }
 
-        StringBuilder sb = new StringBuilder(heap[0]);
-        int i = 1;
+        StringBuilder sb = new StringBuilder();
+        int i = 0;
+        sb.append(heap[i++]);
 
         while (heap[i] != 0) {
             sb.append(", ");
@@ -66,11 +67,11 @@ public class binheap {
     }
 
     void printMin() {
-        System.out.printf("MIN: %s", (heap[0] == 0) ? "none" : heap[0]);
+        System.out.printf("MIN: %s\n", (heap[0] == 0) ? "none" : heap[0]);
     }
 
     void printComparisons() {
-        System.out.printf("COMPARISONS: %d", comp);
+        System.out.printf("COMPARISONS: %d\n", comp);
     }
 
     private void swap(int a, int b) {
